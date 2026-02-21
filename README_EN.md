@@ -8,7 +8,6 @@ Works well in Tauri/WebView, Vite, and React admin apps. No browser extension re
 
 - [English README (current)](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_EN.md)
 - [中文说明](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README.md)
-- [Chinese user guide](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_FOR_USERS.md)
 - [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
 - [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 

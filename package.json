@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "Dev-only click-to-source UI locator overlay for React apps",
   "license": "MIT",
-  "author": "sgdream",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",

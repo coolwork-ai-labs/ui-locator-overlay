@@ -8,7 +8,6 @@
 
 - [中文说明（当前）](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README.md)
 - [English README](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_EN.md)
-- [第三方接入说明（中文）](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_FOR_USERS.md)
 - [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
 - [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 
