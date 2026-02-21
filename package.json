@@ -2,6 +2,7 @@
   "name": "@coolwork-ai-labs/ui-locator-overlay",
   "version": "0.1.0",
   "description": "Dev-only click-to-source UI locator overlay for React apps",
+  "author": "sgdream",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.cjs",
