@@ -6,9 +6,9 @@ Works well in Tauri/WebView, Vite, and React admin apps. No browser extension re
 
 ## Docs Navigation
 
-- [English README (current)](./README_EN.md)
-- [中文说明](./README.md)
-- [Chinese user guide](./README_FOR_USERS.md)
+- [English README (current)](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_EN.md)
+- [中文说明](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README.md)
+- [Chinese user guide](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_FOR_USERS.md)
 - [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
 - [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 
@@ -96,3 +96,15 @@ npm run build
 npm login --registry=https://registry.npmjs.org --scope=@coolwork-ai-labs --auth-type=legacy
 npm publish
 ```
+
+## GitHub Auto Publish (Recommended)
+
+1. In GitHub repo settings, add `NPM_TOKEN` in `Settings -> Secrets and variables -> Actions`.
+2. Push a version tag for each release (for example `v0.1.1`):
+
+```bash
+git tag v0.1.1
+git push origin v0.1.1
+```
+
+3. The workflow at `/.github/workflows/npm-publish.yml` will build and publish to npm automatically.

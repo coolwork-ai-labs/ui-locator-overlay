@@ -6,9 +6,9 @@
 
 ## 文档导航
 
-- [中文说明（当前）](./README.md)
-- [English README](./README_EN.md)
-- [第三方接入说明（中文）](./README_FOR_USERS.md)
+- [中文说明（当前）](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README.md)
+- [English README](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_EN.md)
+- [第三方接入说明（中文）](https://github.com/coolwork-ai-labs/ui-locator-overlay/blob/main/README_FOR_USERS.md)
 - [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
 - [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 
@@ -96,3 +96,15 @@ npm run build
 npm login --registry=https://registry.npmjs.org --scope=@coolwork-ai-labs --auth-type=legacy
 npm publish
 ```
+
+## GitHub 自动发布（推荐）
+
+1. 在 GitHub 仓库里配置 `Settings -> Secrets and variables -> Actions`，新增 `NPM_TOKEN`（npm automation token）。
+2. 每次发版时推送一个版本 tag（例如 `v0.1.1`）：
+
+```bash
+git tag v0.1.1
+git push origin v0.1.1
+```
+
+3. 仓库内置工作流 `/.github/workflows/npm-publish.yml` 会自动构建并发布到 npm。
