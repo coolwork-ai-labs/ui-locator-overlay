@@ -4,6 +4,12 @@
 
 适用场景：Tauri/WebView、Vite、React 管理后台等（不依赖浏览器扩展）。
 
+## 文档导航
+
+- 中文说明（当前）：`README.md`
+- English README: `README_EN.md`
+- 第三方接入说明（中文）：`README_FOR_USERS.md`
+
 ## 安装
 
 ```bash
