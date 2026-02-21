@@ -15,13 +15,13 @@ Works well in Tauri/WebView, Vite, and React admin apps. No browser extension re
 ## Install
 
 ```bash
-npm i ui-locator-overlay
+npm i @coolwork-ai-labs/ui-locator-overlay
 ```
 
 ## Quick Start (React)
 
 ```tsx
-import { UiLocatorOverlay } from 'ui-locator-overlay';
+import { UiLocatorOverlay } from '@coolwork-ai-labs/ui-locator-overlay';
 
 export default function App() {
   return (
@@ -93,6 +93,6 @@ npm run build
 ## Publish
 
 ```bash
-npm login
-npm publish --access public
+npm login --registry=https://registry.npmjs.org --scope=@coolwork-ai-labs --auth-type=legacy
+npm publish
 ```

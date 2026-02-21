@@ -1,5 +1,5 @@
 {
-  "name": "ui-locator-overlay",
+  "name": "@coolwork-ai-labs/ui-locator-overlay",
   "version": "0.1.0",
   "description": "Dev-only click-to-source UI locator overlay for React apps",
   "license": "MIT",
@@ -19,6 +19,10 @@
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "sideEffects": false,
   "scripts": {
