@@ -6,9 +6,11 @@
 
 ## 文档导航
 
-- 中文说明（当前）：`README.md`
-- English README: `README_EN.md`
-- 第三方接入说明（中文）：`README_FOR_USERS.md`
+- [中文说明（当前）](./README.md)
+- [English README](./README_EN.md)
+- [第三方接入说明（中文）](./README_FOR_USERS.md)
+- [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
+- [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 
 ## 安装
 

@@ -6,9 +6,11 @@ Works well in Tauri/WebView, Vite, and React admin apps. No browser extension re
 
 ## Docs Navigation
 
-- English README (current): `README_EN.md`
-- 中文说明: `README.md`
-- Chinese user guide: `README_FOR_USERS.md`
+- [English README (current)](./README_EN.md)
+- [中文说明](./README.md)
+- [Chinese user guide](./README_FOR_USERS.md)
+- [GitHub Repository](https://github.com/coolwork-ai-labs/ui-locator-overlay)
+- [Issues](https://github.com/coolwork-ai-labs/ui-locator-overlay/issues)
 
 ## Install
 
